@@ -33,7 +33,7 @@ export default function Hero() {
             GitHub
           </Link>
           <Link 
-            href="https://linkedin.com/in/lorenzo-belotti" 
+            href="https://linkedin.com/in/lorenzobelotti" 
             target="_blank" 
             className="px-6 py-3 border border-gray-600 hover:border-gray-400 text-gray-300 rounded-lg transition-all"
           >
