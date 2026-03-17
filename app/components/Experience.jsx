@@ -1,27 +1,27 @@
 export default function Experience() {
   const steps = [
     {
-      date: "Expected Sept 2026",
-      title: "MSc in Computer Science / Cybersecurity",
-      company: "Università degli Studi di Milano",
-      description: "Planning to enroll in a Master's program to further deepen my expertise in advanced architectures and security."
-    },
-    {
-      date: "Expected Apr 2026",
+      date: "Sep 2022 - Expected Apr 2026",
       title: "Bachelor's Degree in Computer Science",
       company: "Università degli Studi di Milano",
-      description: "Thesis: Framework for Web3 and Local AI Agent integration on Algorand blockchain. Gained deep knowledge of smart contracts and autonomous systems."
+      description: "Thesis Project: Framework for Web3 and Local AI Agent integration on the Algorand blockchain. Gained deep knowledge of smart contracts and autonomous systems."
     },
     {
       date: "2025 - Present",
       title: "Freelance Full-Stack Developer",
-      company: "Independent",
-      description: "Architected and delivered 'Sportessence', a complete end-to-end management platform for a sports association handling real users and payments."
+      company: "Sportessence",
+      description: "Designed and deployed a full-stack platform from scratch, successfully onboarding and managing 50+ real user registrations within the first launch season."
+    },
+    {
+      date: "Apr 2021 - Jul 2022",
+      title: "Technical Sales & Operations",
+      company: "Thermoinfissi S.R.L.",
+      description: "Engineered dynamic Excel pricing models, replacing manual paper calculations and reducing quote generation time by an estimated 80%. Streamlined the sales pipeline by automating complex markup logic."
     }
   ];
 
   return (
-    <section id = "experience" className="py-20 px-8 sm:px-16 lg:px-24 bg-gray-950">
+    <section id="experience" className="py-20 px-8 sm:px-16 lg:px-24 bg-gray-950">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-12 flex items-center">
           <span className="text-blue-500 font-mono text-xl mr-3">02.</span> 

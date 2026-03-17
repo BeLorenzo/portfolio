@@ -1,38 +1,38 @@
 import Link from 'next/link';
 
 export default function Projects() {
-  const projects = [
+const projects = [
     {
-      label: "Real-World Client Project",
-      title: "Sportessence Management Platform",
-      description: "End-to-end platform for a sports association. Handles user registrations, secure payments via dashboard, and automated transactional emails. Currently in active use.",
+      label: "Freelance",
+      title: "Summer Camp Management Platform",
+      description: "Full-stack platform built from scratch handling 50+ real user registrations. Features secure auth, admin dashboard for payments, and automated transactional emails.",
       tech: ["React", "Supabase", "Vercel", "Resend"],
-      liveLink: "https://INSERISCI_SITO_LIVE_QUI.it",
-      githubLink: null // Repository privata
+      liveLink: "https://www.sportessence.it",
+      githubLink: null
     },
     {
-      label: "Bachelor's Thesis",
+      label: "Thesis Project",
       title: "Blockchain AI Game Framework",
-      description: "Smart contract framework deployed on Algorand. Integrates a Web3 frontend and 7 autonomous local AI agents (Ollama) with memory management to learn strategies.",
+      description: "Smart contract framework deployed on Algorand. Integrates a Web3 frontend and 7 autonomous local AI agents (Ollama) with memory management to learn and adapt strategies.",
       tech: ["Algorand", "React", "Node.js", "Ollama"],
       liveLink: null,
-      githubLink: "https://github.com/BeLorenzo/NOME_REPO_TESI"
+      githubLink: "https://github.com/BeLorenzo/Game4Blockchain"
     },
     {
-      label: "University Exam",
+      label: "Academic Project",
       title: "ForkIt - Open Source Fast Food",
-      description: "Collaborative web application acting as a recipe book and ordering system. Built to study Role-Based Access Control and backend API structuring.",
-      tech: ["Express", "Node.js", "MongoDB"],
+      description: "RESTful backend powering a collaborative ordering system. Implemented secure Role-Based Access Control (RBAC) for 4 distinct user tiers and dynamic cost calculations.",
+      tech: ["Express", "Node.js", "MongoDB", "JavaScript"],
       liveLink: null,
-      githubLink: "https://github.com/BeLorenzo/NOME_REPO_FORKIT"
+      githubLink: "https://github.com/BeLorenzo/ForkIt"
     },
     {
-      label: "University Exam",
+      label: "Academic Project",
       title: "Smart Tracking Turret",
-      description: "Embedded tracking system using servo motors, Sonar/Laser sensors, and hardware interrupts. Includes a Telegram bot integration for alerts.",
-      tech: ["C", "Assembly", "ESP32", "Hardware"],
+      description: "C++ embedded tracking system fusing Sonar and Laser sensor data to monitor surroundings up to a 4m radius. Includes a Telegram webhook for sub-second proximity alerts.",
+      tech: ["C++", "Arduino", "Hardware"],
       liveLink: null,
-      githubLink: "https://github.com/BeLorenzo/NOME_REPO_TORRETTA"
+      githubLink: "https://github.com/BeLorenzo/proximityRadar"
     }
   ];
 
