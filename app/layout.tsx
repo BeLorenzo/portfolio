@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lorenzo Belotti | Software Engineer",
-  description: "Junior Software Engineer portfolio. I build scalable full-stack applications, Web3 frameworks, and AI integrations.",
+  title: "Lorenzo Belotti | Junior Software Engineer",
+  description: "Portfolio di Lorenzo Belotti. Junior Software Engineer & CS Student @ UniMi. Sviluppo applicazioni full-stack, integrazioni Web3, Smart Contracts e Local AI.",
 };
 
 export default function RootLayout({
