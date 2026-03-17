@@ -15,14 +15,21 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-blue-400 transition-colors">03. Skills</a>
           <a href="#contact" className="hover:text-blue-400 transition-colors">04. Contact</a>
         </div>
-        {/* CV Button for Mobile / Extra CTA */}
-        <a 
-          href="/CV_Lorenzo_Belotti.pdf" 
+        
+        <a  href="/CV_Lorenzo_Belotti.pdf"
           target="_blank"
           className="px-4 py-2 border border-blue-500 text-blue-500 text-xs font-mono rounded hover:bg-blue-500/10 transition-colors"
         >
           Resume
         </a>
+      </div>
+
+      {/* Mobile-only link row */}
+      <div className="sm:hidden flex justify-around px-4 py-2 border-t border-gray-800 text-xs font-mono text-gray-500">
+        <a href="#projects" className="hover:text-blue-400 transition-colors">Work</a>
+        <a href="#experience" className="hover:text-blue-400 transition-colors">Experience</a>
+        <a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a>
+        <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
       </div>
     </nav>
   );
