@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Projects() {
   const projects = [
     {
-      label: "Freelance",
+      label: "Freelance / Live in Prod",
       title: "Summer Camp Management Platform",
       description: "Full-stack platform built from scratch handling 50+ real user registrations. Features secure auth, admin dashboard for payments, and automated transactional emails.",
       tech: ["React", "Supabase", "Vercel", "Resend"],
@@ -22,21 +22,21 @@ export default function Projects() {
       imageUrl: null //"/HomePage.png" 
     },
     {
+      label: "2nd Place - PwC Hack Arena",
+      title: "Dynamic Travel Insurance",
+      description: "Conceptualized and prototyped a modular travel insurance web app featuring a real-time destination risk dashboard and on-demand micro-coverage.",
+      tech: ["UI Prototyping", "Business Analysis", "Product Design"],
+      liveLink: null,
+      githubLink: null,
+      imageUrl: null
+    },
+    {
       label: "Academic Project",
       title: "ForkIt - Open Source Fast Food",
       description: "RESTful backend powering a collaborative ordering system. Implemented secure Role-Based Access Control (RBAC) for 4 distinct user tiers and dynamic cost calculations.",
       tech: ["Express", "Node.js", "MongoDB", "JavaScript"],
       liveLink: null,
       githubLink: "https://github.com/BeLorenzo/ForkIt",
-      imageUrl: null
-    },
-    {
-      label: "Academic Project",
-      title: "Smart Tracking Turret",
-      description: "C++ embedded tracking system fusing Sonar and Laser sensor data to monitor surroundings up to a 4m radius. Includes a Telegram webhook for sub-second proximity alerts.",
-      tech: ["C++", "Arduino", "Hardware"],
-      liveLink: null,
-      githubLink: "https://github.com/BeLorenzo/proximityRadar",
       imageUrl: null
     }
   ];

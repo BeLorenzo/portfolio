@@ -1,8 +1,9 @@
+// app/components/Experience.jsx
 export default function Experience() {
   const steps = [
     {
-      date: "Sep 2022 - Expected Apr 2026",
-      title: "Bachelor's Degree in Computer Science",
+      date: "Sep 2022 - Apr 2026",
+      title: "Bachelor's Degree in Computer Science | 104/110",
       company: "Università degli Studi di Milano",
       description: "Thesis Project: Framework for Web3 and Local AI Agent integration on the Algorand blockchain. Gained deep knowledge of smart contracts and autonomous systems."
     },
@@ -10,7 +11,7 @@ export default function Experience() {
       date: "2025 - Present",
       title: "Freelance Full-Stack Developer",
       company: "Sportessence",
-      description: "Designed and deployed a full-stack platform from scratch, successfully onboarding and managing 50+ real user registrations within the first launch season."
+      description: "Designed and deployed a full-stack platform from scratch, successfully onboarding and managing 100+ real user registrations within the first launch season."
     },
     {
       date: "Apr 2021 - Jul 2022",
@@ -31,7 +32,7 @@ export default function Experience() {
 
         <div className="space-y-12">
           {steps.map((step, index) => (
-            <div key={index} className="relative pl-8 border-l border-gray-800">
+            <div key={index} className="relative pl-8 border-l border-gray-800 hover:border-blue-500/50 transition-colors duration-300">
               <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-[6.5px] top-1.5 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
               <div className="flex flex-col md:flex-row md:justify-between mb-2">
                 <h3 className="text-xl font-bold text-gray-200">{step.title}</h3>

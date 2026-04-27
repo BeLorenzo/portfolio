@@ -7,12 +7,11 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="text-gray-400 mb-10 leading-relaxed">
-          I'm currently looking for new opportunities as a Junior Software Engineer.
-          Whether you have a question, a project idea, or just want to say hi, my inbox is always open.
+          I am actively looking for new opportunities to build efficient, scalable software. 
+          If your team needs a Full-Stack Developer with a pragmatic approach and a focus on solving real business problems, my inbox is open.
         </p>
 
-        
-          <a href="mailto:lorenzo18999@gmail.com"
+        <a href="mailto:lorenzo18999@gmail.com"
           className="inline-block px-8 py-4 bg-transparent border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white font-bold rounded-lg transition-all"
         >
           Say Hello
@@ -22,15 +21,14 @@ export default function Contact() {
       <footer className="mt-32 text-gray-600 font-mono text-sm">
         <p>Built by Lorenzo Belotti.</p>
         <div className="flex justify-center gap-6 mt-3">
-          
-          <a  href="https://github.com/BeLorenzo"
+          <a href="https://github.com/BeLorenzo"
             target="_blank"
             className="hover:text-gray-400 transition-colors"
           >
             GitHub
           </a>
           
-          <a  href="https://linkedin.com/in/lorenzobelotti"
+          <a href="https://linkedin.com/in/lorenzobelotti"
             target="_blank"
             className="hover:text-gray-400 transition-colors"
           >

@@ -10,10 +10,10 @@ export default function Hero() {
           Lorenzo Belotti.
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-400 mb-6">
-          I build scalable full-stack applications.
+          I build full-stack solutions with a business mindset.
         </h2>
         <p className="text-lg text-gray-400 mb-10 max-w-2xl leading-relaxed">
-          I'm a versatile Junior Software Engineer who loves tackling complex problems. From architecting end-to-end management platforms to experimenting with Web3 and AI, my focus is on writing clean code and shipping products.
+          I am a Software Engineer with a BSc in Computer Science (104/110). By combining years of prior professional experience in technical operations with modern expertise in Web3 and local AI, I look beyond the code to build applications focused on efficiency, process automation, and real-world impact.
         </p>
         
         <div className="flex flex-wrap gap-4">
@@ -28,7 +28,7 @@ export default function Hero() {
           <Link 
             href="https://github.com/BeLorenzo" 
             target="_blank" 
-            className="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-all"
+            className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white font-semibold rounded-lg border border-gray-700 transition-all"
           >
             GitHub
           </Link>

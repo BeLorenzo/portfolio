@@ -24,10 +24,9 @@ export default function Skills() {
   ];
 
   const softSkills = [
-    "Problem Solving",
-    "Fast Learner",
-    "Attention to Detail",
-    "Adaptability",
+    "Business Analysis & Prototyping", 
+    "Process Automation",              
+    "Full-Stack System Architecture", 
   ];
 
   return (
