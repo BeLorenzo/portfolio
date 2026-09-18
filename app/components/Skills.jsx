@@ -1,96 +1,58 @@
+"use client";
+import { useLanguage } from '../context/LanguageContext';
+import { t } from '../utils/translations';
+
 export default function Skills() {
+  const { lang } = useLanguage();
+
   const techSkills = [
     {
-      category: "Languages",
-      items: ["JavaScript", "Python", "Java", "C++", "Go", "SQL", "Shell Script", "Assembly"]
+      category: t.skills[lang].c1,
+      items: ["Google Cloud (GCP)", "BigQuery", "Apache Airflow", "Dataform", "Looker Studio"]
     },
     {
-      category: "Web & Frameworks",
-      items: ["React", "Next.js", "Node.js", "Express", "Vite", "HTML/CSS", "Tailwind CSS"]
+      category: t.skills[lang].c2,
+      items: ["Python", "SQL", "JavaScript", "Java", "C++", "Go", "Shell Script"]
     },
     {
-      category: "Database & Cloud",
-      items: ["MongoDB", "Supabase", "Vercel", "Resend"]
+      category: t.skills[lang].c3,
+      items: ["React", "Node.js", "Express", "Vite", "HTML/CSS"]
     },
     {
-      category: "Tools & Other",
-      items: ["Git", "Linux", "Algorand SDK", "Smart Contracts", "Web3", "Ollama"]
+      category: t.skills[lang].c4,
+      items: ["MongoDB", "Supabase", "Git", "Docker", "Linux", "Ollama (Local AI)"]
     },
-  ];
-
-  const languages = [
-    { name: "Italian", level: "Native" },
-    { name: "English", level: "B2" },
-  ];
-
-  const softSkills = [
-    "Business Analysis & Prototyping", 
-    "Process Automation",              
-    "Full-Stack System Architecture", 
   ];
 
   return (
-    <section id="skills" className="py-20 px-8 sm:px-16 lg:px-24 bg-gray-900">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-12 flex items-center">
-          <span className="text-blue-500 font-mono text-xl mr-3">03.</span>
-          My Toolbox
-          <div className="ml-6 h-[1px] bg-gray-700 flex-grow"></div>
+    <section id="skills" className="py-20 px-8 sm:px-16 lg:px-24 bg-gray-900 relative overflow-hidden">
+      {/* Background glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-900/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+      <div className="max-w-5xl mx-auto relative z-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-12 flex items-center group">
+          <span className="text-blue-500 font-mono text-xl mr-3 group-hover:text-emerald-400 transition-colors">03.</span>
+          {t.skills[lang].title}
+          <div className="ml-6 h-[1px] bg-gray-700 flex-grow group-hover:bg-gray-600 transition-colors"></div>
         </h2>
 
-        {/* Tech Skills */}
-        <p className="text-xs font-mono uppercase tracking-widest text-gray-500 mb-6">
-          Technologies I work with
-        </p>
-        <div className="space-y-6 mb-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
           {techSkills.map((cat, i) => (
-            <div key={i}>
-              <p className="text-xs font-mono text-gray-600 mb-2">{cat.category}</p>
-              <div className="flex flex-wrap gap-3">
+            <div key={i} className="bg-gray-950/40 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-blue-500/40 hover:bg-gray-900/60 transition-all duration-300 group">
+              <p className="text-sm font-mono text-blue-400 mb-5 uppercase tracking-wider group-hover:text-emerald-400 transition-colors">{cat.category}</p>
+              <div className="flex flex-wrap gap-2.5">
                 {cat.items.map((skill, j) => (
-                  <div
+                  <span
                     key={j}
-                    className="px-4 py-2 bg-gray-950 border border-gray-800 rounded-lg text-gray-300 font-mono text-sm hover:border-blue-500 hover:text-blue-400 transition-colors"
+                    className="px-3.5 py-1.5 bg-gray-900 border border-gray-700/80 rounded-md text-gray-300 font-mono text-xs hover:border-blue-400 hover:text-white hover:bg-blue-900/20 transition-all cursor-default"
                   >
                     {skill}
-                  </div>
+                  </span>
                 ))}
               </div>
             </div>
           ))}
         </div>
-
-        {/* Languages */}
-        <p className="text-xs font-mono uppercase tracking-widest text-gray-500 mb-6">
-          Languages
-        </p>
-        <div className="flex flex-wrap gap-3 mb-14">
-          {languages.map((lang, i) => (
-            <div
-              key={i}
-              className="px-4 py-2 bg-gray-950 border border-gray-800 rounded-lg font-mono text-sm text-gray-300 flex items-center gap-2"
-            >
-              {lang.name}
-              <span className="text-blue-400 text-xs">{lang.level}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Soft Skills */}
-        <p className="text-xs font-mono uppercase tracking-widest text-gray-500 mb-6">
-          How I work
-        </p>
-        <div className="flex flex-wrap gap-3">
-          {softSkills.map((s, i) => (
-            <div
-              key={i}
-              className="px-4 py-2 bg-gray-950 border border-gray-800 rounded-lg text-gray-300 font-mono text-sm hover:border-blue-500 hover:text-blue-400 transition-colors"
-            >
-              {s}
-            </div>
-          ))}
-        </div>
-
       </div>
     </section>
   );
