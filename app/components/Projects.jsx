@@ -38,6 +38,14 @@ export default function Projects() {
       tech: ["Express", "Node.js", "MongoDB", "JavaScript"],
       liveLink: null,
       githubLink: "https://github.com/BeLorenzo/ForkIt"
+    },
+    {
+      label: t.projects[lang].p5.label,
+      title: t.projects[lang].p5.title,
+      description: t.projects[lang].p5.desc,
+      tech: ["React", "Capacitor", "Android", "TypeScript", "Tailwind"],
+      liveLink: "https://github.com/BeLorenzo/al-piof/releases",
+      githubLink: "https://github.com/BeLorenzo/al-piof"
     }
   ];
 

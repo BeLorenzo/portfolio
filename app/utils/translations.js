@@ -51,6 +51,11 @@ export const t = {
         label: "Academic Project",
         title: "ForkIt - Open Source Fast Food",
         desc: "RESTful backend for a collaborative ordering system. Implemented Role-Based Access Control (RBAC) for 4 user tiers and DB schemas for real-time cost calculation."
+      },
+      p5: {
+        label: "100% AI Vibe Coding",
+        title: "Al piöf — Multi-Model Weather & Android Widget",
+        desc: "Built entirely via AI Vibe Coding in ~48 hours of spare time to solve personal frustration with ad-bloated commercial weather apps. Tailored specifically for Northern Italy and Lombardy by leveraging MeteoSwiss ICON-CH2 ultra-high resolution (2 km) physics combined with European ECMWF consensus. Features a native customizable Android home widget, real-time minute temperature interpolation, European physiological perceived temperature, Copernicus CAMS air quality, and interactive radar."
       }
     },
     it: {
@@ -74,6 +79,11 @@ export const t = {
         label: "Academic Project",
         title: "ForkIt - Open Source Fast Food",
         desc: "Backend RESTful per un sistema di ordinazioni collaborativo. Implementato Role-Based Access Control (RBAC) per 4 livelli utente e schemi DB per il calcolo dei costi in tempo reale."
+      },
+      p5: {
+        label: "100% AI Vibe Coding",
+        title: "Al piöf — Meteo Multi-Modello & Widget Android",
+        desc: "Progetto nato da una reale frustrazione personale per le app meteo commerciali piene di annunci e sviluppato al 100% tramite AI Vibe Coding in circa 48 ore nel tempo libero. L'app è ottimizzata specificamente per il Nord Italia e la Lombardia sfruttando il modello svizzero MeteoSwiss ICON-CH2 ad altissima risoluzione (2 km) combinato in consenso con ECMWF europeo. Include widget Android nativo personalizzabile per la Home, interpolazione termica al minuto, temperatura percepita fisiologica, qualità dell'aria CAMS Copernicus e radar interattivo."
       }
     }
   },
