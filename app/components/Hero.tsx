@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4">
           <Link 
             href="/CV_Lorenzo_Belotti.pdf" 
-            target="_blank"
+            target="_blank" 
             download
             className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all shadow-[0_0_15px_rgba(37,99,235,0.4)] hover:shadow-[0_0_25px_rgba(37,99,235,0.6)]"
           >

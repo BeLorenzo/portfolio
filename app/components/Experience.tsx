@@ -2,10 +2,17 @@
 import { useLanguage } from '../context/LanguageContext';
 import { t } from '../utils/translations';
 
+interface Step {
+  date: string;
+  title: string;
+  company: string;
+  description: string;
+}
+
 export default function Experience() {
   const { lang } = useLanguage();
 
-  const steps = [
+  const steps: Step[] = [
     {
       date: "Jun 2026 - Present",
       title: t.exp[lang].e1.title,

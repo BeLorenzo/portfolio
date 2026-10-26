@@ -2,10 +2,15 @@
 import { useLanguage } from '../context/LanguageContext';
 import { t } from '../utils/translations';
 
+interface TechSkillCategory {
+  category: string;
+  items: string[];
+}
+
 export default function Skills() {
   const { lang } = useLanguage();
 
-  const techSkills = [
+  const techSkills: TechSkillCategory[] = [
     {
       category: t.skills[lang].c1,
       items: ["Google Cloud (GCP)", "BigQuery", "Apache Airflow", "Dataform", "Looker Studio"]

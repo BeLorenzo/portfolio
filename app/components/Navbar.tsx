@@ -24,12 +24,14 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <div className="flex bg-gray-900 border border-gray-800 rounded-md p-1">
             <button 
+              type="button"
               onClick={() => toggleLang('en')}
               className={`px-2 py-1 rounded text-xs font-mono transition-colors ${lang === 'en' ? 'bg-gray-800 text-white' : 'text-gray-500 hover:text-gray-300'}`}
             >
               EN
             </button>
             <button 
+              type="button"
               onClick={() => toggleLang('it')}
               className={`px-2 py-1 rounded text-xs font-mono transition-colors ${lang === 'it' ? 'bg-gray-800 text-white' : 'text-gray-500 hover:text-gray-300'}`}
             >

@@ -3,10 +3,19 @@ import Link from 'next/link';
 import { useLanguage } from '../context/LanguageContext';
 import { t } from '../utils/translations';
 
+interface Project {
+  label: string;
+  title: string;
+  description: string;
+  tech: string[];
+  liveLink: string | null;
+  githubLink: string | null;
+}
+
 export default function Projects() {
   const { lang } = useLanguage();
 
-  const projects = [
+  const projects: Project[] = [
     {
       label: t.projects[lang].p1.label,
       title: t.projects[lang].p1.title,
@@ -38,15 +47,8 @@ export default function Projects() {
       tech: ["Express", "Node.js", "MongoDB", "JavaScript"],
       liveLink: null,
       githubLink: "https://github.com/BeLorenzo/ForkIt"
-    },
-    {
-      label: t.projects[lang].p5.label,
-      title: t.projects[lang].p5.title,
-      description: t.projects[lang].p5.desc,
-      tech: ["React", "Capacitor", "Android", "TypeScript", "Tailwind"],
-      liveLink: "https://github.com/BeLorenzo/al-piof/releases",
-      githubLink: "https://github.com/BeLorenzo/al-piof"
     }
+    // Al piöf è pronto in translations.ts e verrà inserito nella sezione Lab / Garage
   ];
 
   return (

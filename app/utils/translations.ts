@@ -53,9 +53,9 @@ export const t = {
         desc: "RESTful backend for a collaborative ordering system. Implemented Role-Based Access Control (RBAC) for 4 user tiers and DB schemas for real-time cost calculation."
       },
       p5: {
-        label: "100% AI Vibe Coding",
+        label: "Zero-Code AI Experiment",
         title: "Al piöf — Multi-Model Weather & Android Widget",
-        desc: "Built entirely via AI Vibe Coding in ~48 hours of spare time to solve personal frustration with ad-bloated commercial weather apps. Tailored specifically for Northern Italy and Lombardy by leveraging MeteoSwiss ICON-CH2 ultra-high resolution (2 km) physics combined with European ECMWF consensus. Features a native customizable Android home widget, real-time minute temperature interpolation, European physiological perceived temperature, Copernicus CAMS air quality, and interactive radar."
+        desc: "A zero-code vibe coding experiment born out of personal frustration with ad-bloated, generic weather apps. Acted as Product Manager & QA, orchestrating AI to design, build, and deploy an Android app (Capacitor) with a native home widget in 48 hours. Combines MeteoSwiss ICON-CH2 high-res (2 km) physics with ECMWF consensus for Northern Italy, real-time radar, and Copernicus air quality. Actively used by real daily users and maintained through iterative feedback."
       }
     },
     it: {
@@ -81,9 +81,9 @@ export const t = {
         desc: "Backend RESTful per un sistema di ordinazioni collaborativo. Implementato Role-Based Access Control (RBAC) per 4 livelli utente e schemi DB per il calcolo dei costi in tempo reale."
       },
       p5: {
-        label: "100% AI Vibe Coding",
+        label: "Esperimento Zero-Code AI",
         title: "Al piöf — Meteo Multi-Modello & Widget Android",
-        desc: "Progetto nato da una reale frustrazione personale per le app meteo commerciali piene di annunci e sviluppato al 100% tramite AI Vibe Coding in circa 48 ore nel tempo libero. L'app è ottimizzata specificamente per il Nord Italia e la Lombardia sfruttando il modello svizzero MeteoSwiss ICON-CH2 ad altissima risoluzione (2 km) combinato in consenso con ECMWF europeo. Include widget Android nativo personalizzabile per la Home, interpolazione termica al minuto, temperatura percepita fisiologica, qualità dell'aria CAMS Copernicus e radar interattivo."
+        desc: "Esperimento di zero-code vibe coding nato per risolvere una reale frustrazione personale: eliminare pubblicità e modelli meteo generici. Ho agito come Product Manager & QA orchestrando l'AI per costruire e deployare in 48 ore un'app Android (Capacitor) con widget nativo per la Home. Sfrutta il modello fisico svizzero MeteoSwiss ICON-CH2 (2 km) integrato con ECMWF per la Lombardia, radar live e qualità dell'aria Copernicus. Attualmente usata quotidianamente da utenti reali e mantenuta tramite feedback loop continuo."
       }
     }
   },
